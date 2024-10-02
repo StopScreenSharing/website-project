@@ -63,3 +63,42 @@
     box-shadow: 0 0 25px rgb(105, 16, 165);
     color: white;
 }
+.aboutMe{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    align-items: center;
+    gap: 7em;
+    padding: 65px 34% 0;
+}
+.aboutMe-content{
+    max-width: 800px;
+}
+.aboutMe-content h3{
+    font-size: 42px;
+}
+.aboutMe-content h1{
+    font-size: 62px;
+    line-height: 1.2;
+}
+.aboutMe-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+.btn-box{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+.btn-1{
+    padding: 15px 28px;
+    background-color:  rgb(105, 16, 165);
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
