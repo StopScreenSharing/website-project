@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .header{
-    position: fixed;
+    position:relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -15,8 +15,8 @@
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    z-index: 100;
+    align-items:normal
+    z-index:center
 }
 
 .logo{
@@ -67,7 +67,7 @@
     width: 100%;
     min-height: 100vh;
     background-color: white;
-    align-items: center;
+    align-items: center
     gap: 7em;
     padding: 65px 34% 0;
 }
@@ -91,4 +91,4 @@
     gap: 2em;
 }
 
-}
+
