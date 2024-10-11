@@ -91,4 +91,12 @@
     gap: 2em;
 }
 
+#myButton{
+    font-size: 2rem;
+    color: rgb(105, 16, 165);
+    background-color: rgb(213, 162, 247);
+    font-weight: 600;
+    border-color: rgb(208, 126, 255);
+
+}
 
